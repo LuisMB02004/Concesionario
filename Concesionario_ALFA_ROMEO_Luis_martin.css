@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    top: 0; /* Asegura que el header esté en la parte superior */
+}
+
+.menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.menu-line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+.logo {
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.logo-img {
+    max-width: 50px;
+    margin-left: 10px;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.car-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px; /* Puedes ajustar según sea necesario */
+}
+
+.car {
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin-bottom: 20px; /* Agregado para separar las ventanas flotantes */
+}
+
+.car img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.offer {
+    position: relative;
+    background-color: #ff4107;
+}
+
+.offer h3 {
+    color: #fff;
+}
+
+.offer-price {
+    font-weight: bold;
+}
